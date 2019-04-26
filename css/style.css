@@ -45,7 +45,7 @@ main{
   border-radius: 4px;
 }
 
-header{
+.initial-header{
   display: flex;
   justify-content: space-between;
 }
@@ -62,7 +62,16 @@ main > section{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 700px;
+  /* width: 700px; */
+}
+
+@media (max-width: 715px) {
+  .initial-header  {
+    flex-direction: column;
+  }
+  .info {
+    margin-top: 15px;
+  }
 }
 
 .unit-title{
