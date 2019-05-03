@@ -33,7 +33,7 @@ h1, h2, h3, p, ul{
 }
 
 .experience-list {
-  padding-top: 6px;
+  padding-top: 5px;
 }
 
 main{
@@ -79,6 +79,10 @@ main > section{
   color: var(--title-color);
 }
 
+.unit-language{
+  margin-top: 20px;
+}
+
 section .unit{
   margin-top: 10px;
 }
@@ -97,4 +101,8 @@ section .unit{
 .info .fa{
   font-size: 15px;
   padding: 5px;
+}
+
+#thesis {
+  margin-top: 5px;
 }
