@@ -32,6 +32,16 @@ h1, h2, h3, p, ul{
   list-style-type: none;
 }
 
+ul.experience-list li p {
+  margin-left: 16px;
+}
+
+ul.experience-list li:before {    
+  font-family: 'FontAwesome';
+  content: '\f10c';
+  float: left;
+}
+
 .experience-list {
   padding-top: 5px;
 }
