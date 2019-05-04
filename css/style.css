@@ -11,7 +11,7 @@
   --line-color: #E3E3E3;
 
   --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-size: 13px;
+  --font-size: 15px;
 }
 
 body, html{
@@ -32,15 +32,56 @@ h1, h2, h3, p, ul{
   list-style-type: none;
 }
 
-ul.experience-list li p {
-  margin-left: 16px;
+/* bullet point for info list */
+ul#info-list li:first-child:before {    
+  font-family: 'FontAwesome';
+  content: '\f015';
+  float: left;
 }
 
+ul#info-list li:nth-child(2):before {    
+  font-family: 'FontAwesome';
+  content: '\f0e0';
+  font-size: 15px;
+  float: left;
+}
+
+ul#info-list li:nth-child(3):before {    
+  font-family: 'FontAwesome';
+  content: '\f0e1';
+  font-size: 15px;
+  float: left;
+}
+
+ul#info-list li:nth-child(4):before {    
+  font-family: 'FontAwesome';
+  content: '\f09b';
+  font-size: 15px;
+  float: left;
+}
+
+ul#info-list li p {
+  margin-left: 25px;
+}
+
+ul#info-list li a {
+  margin-left: 25px;
+  margin-top: 3px;
+  display: block;
+}
+/* end bullet point for info list */
+
+/* bullet point for experience list */
 ul.experience-list li:before {    
   font-family: 'FontAwesome';
   content: '\f10c';
   float: left;
 }
+
+ul.experience-list li p {
+  margin-left: 16px;
+}
+/* end bullet point for experience list */
 
 .experience-list {
   padding-top: 5px;
