@@ -60,6 +60,17 @@ ul#info-list li:nth-child(4):before {
   float: left;
 }
 
+ul#info-list li:nth-child(5):before {    
+  font-family: 'FontAwesome';
+  content: '\f1c1';
+  font-size: 15px;
+  float: left;
+}
+
+ul#info-list li:nth-child(5) a {
+  margin-top: 10px;
+}
+
 ul#info-list li p {
   margin-left: 25px;
 }
@@ -107,6 +118,10 @@ main > header{
 
 main > section{
   margin-top: 20px;
+}
+
+header {
+  display: table-row-group;
 }
 
 .unit-header{

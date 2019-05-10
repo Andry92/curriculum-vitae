@@ -6,6 +6,10 @@
   <title>Andrea Di Benedetto</title>
   <link rel='stylesheet' href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="libraries/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="libraries/jspdf.min.js"></script>
+  <script type="text/javascript" src="libraries/html2canvas.js"></script>
+  <script type="text/javascript" src="script/genPDF.js"></script>
 </head>
 
 <body>
@@ -33,6 +37,9 @@
           </li>
           <li>
             <a href="https://github.com/Andry92" target="_blank">https://github.com/Andry92</a>
+          </li>
+          <li>
+            <a href="javascript:genPDF()" id="pdf-link" data-html2canvas-ignore="true">Download as PDF</a>
           </li>
         </ul>
       </div>
@@ -96,7 +103,7 @@
           <span class="title">
             Operating Systems:
           </span>
-          Linux, Windows
+          Linux, Windows, Mac
         </p>
       </div>
       <div class="unit">
@@ -104,7 +111,7 @@
           <span class="title">
             Programming Languages:
           </span>
-          JavaScript, PHP, C
+          JavaScript, PHP, C, Python
         </p>
       </div>
       <div class="unit">
@@ -120,7 +127,7 @@
           <span class="title">
             Framework:
           </span>
-          LoopBack, Node.js
+          LoopBack, Node.js, jQuery
         </p>
       </div>
       <div class="unit">
